@@ -3,12 +3,12 @@ name = "SigmaOS-cli-router"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "cli-router component"
+description = "A Rust command-routing model. CliRouter registers command metadata, resolves routes against arguments, groups and lists commands, and records route conflicts."
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
